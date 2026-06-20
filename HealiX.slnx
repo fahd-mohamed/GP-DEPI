@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="HealiX.API/HealiX.API.csproj" />
+  <Project Path="HealiX.Application/HealiX.Application.csproj" />
+  <Project Path="HealiX.Domain/HealiX.Domain.csproj" />
+  <Project Path="HealiX.Infrastructure/HealiX.Infrastructure.csproj" />
+</Solution>

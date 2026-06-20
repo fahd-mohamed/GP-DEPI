@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HealiX.Domain.Entities
 {
-    internal class RolePermission
+    public class RolePermission
     {
         public int RoleId { get; set; }
         public Role Role { get; set; } = null!;

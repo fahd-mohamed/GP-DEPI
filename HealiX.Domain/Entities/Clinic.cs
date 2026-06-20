@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace HealiX.Domain.Entities
 {
-    internal class Clinic :BaseEntity
+    public class Clinic :BaseEntity
     {
         public string Name { get; set; } = string.Empty;
         public string? Address { get; set; }

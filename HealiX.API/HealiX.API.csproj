@@ -15,4 +15,9 @@
     <Folder Include="Extensions\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\HealiX.Application\HealiX.Application.csproj" />
+    <ProjectReference Include="..\HealiX.Infrastructure\HealiX.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>

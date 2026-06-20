@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace HealiX.Domain.Entities
 {
-    internal class Role : BaseEntity
+    public class Role : BaseEntity
     {
         public String Name { get; set; } = String.Empty;
 

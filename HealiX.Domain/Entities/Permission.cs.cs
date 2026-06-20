@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace HealiX.Domain.Entities
 {
-    internal class Permission : BaseEntity
+    public class Permission : BaseEntity
     {
         public string Name { get; set; } = string.Empty;
 

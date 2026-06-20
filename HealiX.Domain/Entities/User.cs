@@ -7,15 +7,16 @@ using System.Threading.Tasks;
 
 namespace HealiX.Domain.Entities
 {
-    internal class User : BaseEntity
+    public class User : BaseEntity
     {
-        public String FirstName { get; set; }
-        public String LastName  { get; set; }
-        public String Email  { get; set; }
-        public String Password  { get; set; }
+        public string FirstName { get; set; } = string.Empty;
+        public string LastName { get; set; } = string.Empty;
+        public string Email { get; set; } = string.Empty;
+        public string Password { get; set; } = string.Empty;
 
         public int RoleId { get; set; }
 
         public Role Role { get; set; } = null!;
     }
 }
+ 

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HealiX.Domain.Common
 {
-    internal abstract class BaseEntity
+    public abstract class BaseEntity
     {
         public int Id { get; set; }
 

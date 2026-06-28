@@ -17,6 +17,8 @@ namespace HealiX.Domain.Entities
         public int RoleId { get; set; }
 
         public Role Role { get; set; } = null!;
+        public string? ResetToken { get; set; }
+        public DateTime? ResetTokenExpiry { get; set; }
     }
 }
  

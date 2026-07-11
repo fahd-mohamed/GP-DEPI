@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HealiX.Domain.Entities
 {
-    internal class DoctorSpecialty
+    public class DoctorSpecialty
     {
         public int DoctorId { get; set; }
         public User Doctor { get; set; } = null!;

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace HealiX.Domain.Entities
 {
-    internal class Specialty : BaseEntity
+    public class Specialty : BaseEntity
     {
         public string Name { get; set; } = string.Empty;
         public string? Description { get; set; }
